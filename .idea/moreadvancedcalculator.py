@@ -28,6 +28,7 @@ if operator == "add":
     addoutput = add(num1,num2)
     print("the value of addition output:", addoutput)
 
+
 elif operator == "mul":
     muloutput = mul(num1,num2)
     print("the value of multipication output:", muloutput)

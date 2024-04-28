@@ -7,7 +7,9 @@ print(directory)
 for folder in directory:
     try:
         files = os.listdir()
+        continue
     except FileNotFoundError:
+        break
         print(files)
 
 for file in files:
